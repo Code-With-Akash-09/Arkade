@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HTML</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+	<header id="header-container">
+		<div class="social-media-container">
+			<div class="contact">
+				<h6><ion-icon name="mail-open-outline"></ion-icon>info@arkade.in</h6>
+				<h6><ion-icon name="call-outline"></ion-icon>022 2886 3787 </h6>
+			</div>
+			<div class="social-media">
+				<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+				<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+				<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+				<a href="#"><ion-icon name="logo-google"></ion-icon></a>
+			</div>
+		</div>
+		<div class="nav-bar-container">
+			<div class="logo">
+				<img src="images/1.png" alt="">
+			</div>
+			<div class="nav-bar">
+				<button id="open" onclick="openFunc()" ><ion-icon name="menu"></ion-icon></button>
+				<nav id="navbar">
+					<button id="close" onclick="closeFunc()" ><ion-icon name="close"></ion-icon></button>
+					<ul>
+						<li><a href="#home-container">Home</a></li>
+						<li><a href="#about-container">About Us</a></li>
+						<li><a href="#our-projects">Our Projects</a></li>
+						<li><a href="#investors">Investors</a></li>
+						<li><a href="#careers">Careers</a></li>
+						<li><a href="#contact-us">Contact Us</a></li>
+					</ul>
+					<div class="button">
+						<a href="#">Schedule A Site Visit</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section id="home-container">
+		<div class="bg-img"></div>
+		<div class="data">
+			<h6>BUILD ANYTHNG WITH US</h6>
+			<h1>SED UT PERSPICIATIS</h1>
+			<h1>UNDE OMNIS ISTE NATUS</h1>
+			<a href="#">Discover More</a>
+		</div>
+	</section>
+	
+	<section id="about-container">
+		<div class="about-heading">
+			<h6>WE ARE ARKADEGROUP</h6>
+		</div>
+		<div class="about-data">
+			<div class="img">
+				<div class="user-img">
+					<img src="images/02.png" alt="">
+					<div class="square"></div>
+				</div>
+				<div class="user-up-img">
+					<img src="images/03.png" alt="">
+				</div>
+			</div>
+			<div class="details">
+				<div class="heading">
+					<div class="shape" ></div>
+					<div class="headings">
+						<h6>A little About Us</h6>
+						<h2>There's more to us than meets the eye.</h2>
+					</div>
+				</div>
+				<div class="data">
+					<p>It is quite easy to define an organization solely by what services it offers. More often than not, what an entity does in the most commercial sensebecomes the sole descriptor for its purpose of existence, i.e. except for thosewho choose to add to this description by transcending their traditional role. At Arkade Group, there is more to us than what meets the eye. What was started as a passionate drive to craft abodes by Shri Mangilal R. Jain in 1984 has now turned into much more than just that. Led by people who believe in the power of passion and leaps of faith, we have become Life Investors, multiplying life & providing contentment.</p>
+				</div>
+				<div class="goals">
+					<div class="goal">
+						<div class="logo">
+							<img src="images/2.png" alt="">
+						</div>
+						<div class="comment">
+							<h5>Vision - Mission</h5>
+						</div>
+					</div>
+					<div class="goal">
+						<div class="logo">
+							<img src="images/3.png" alt="">
+						</div>
+						<div class="comment">
+							<h5>The Core Team</h5>
+						</div>
+					</div>
+					<div class="goal">
+						<div class="logo">
+							<img src="images/4.png" alt="">
+						</div>
+						<div class="comment">
+							<h5>Milestones</h5>
+						</div>
+					</div>
+					<div class="goal">
+						<div class="logo">
+							<img src="images/5.png" alt="">
+						</div>
+						<div class="comment">
+							<h5>The Management</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="our-projects">
+		<div class="heading">
+			<h3>OUR <span>PROJECTS</span><div class="line"></div></h3>
+			<div class="button">
+				<a href="#" id="current" onclick="getCurrentPro()" style="background: darkorange;">ONGOING</a>
+				<a href="#" id="upcoming" onclick="getUpcomingPro()" style="background: #303030;">UPCOMING</a>
+			</div>
+		</div>
+		<div class="img-container">
+			<div class="img">
+				<div class="bg-img">
+					<img src="images/04.png" alt="">
+				</div>
+				<div class="comment">
+					<h5>ARKADE ADORNIA</h5>
+					<h6>GOREGOAN (E)</h6>
+				</div>
+			</div>
+			<div class="img">
+				<div class="bg-img">
+					<img src="images/05.png" alt="">
+				</div>
+				<div class="comment">
+					<h5>JEEVAN SARITA</h5>
+					<h6>VILE PARLE (E)</h6>
+				</div>
+			</div>
+			<div class="img">
+				<div class="bg-img">
+					<img src="images/06.png" alt="">
+				</div>
+				<div class="comment">
+					<h5>FORTUNA</h5>
+					<h6>FORJETT STREET</h6>
+				</div>
+			</div>
+			<div class="img">
+				<div class="bg-img">
+					<img src="images/07.png" alt="">
+				</div>
+				<div class="comment">
+					<h5>OM KAUSHAL</h5>
+					<h6>VILE PARLE (E)</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="investors">
+		<div class="comments">
+			<div class="heading">
+				<div class="shape"></div>
+				<div class="headings">
+					<h6>ARKADE</h6>
+					<h2>Life Investors,</h2>
+					<h4>rather than developers <span>.</span></h4>
+				</div>
+			</div>
+			<div class="information">
+				<p>All our endeavours are dear to us. Some, however, are closest to our heart. They form a source of our pride and are perfect examples of why we call ourselves Life Investors. These are filled with life, to the brim.</p>
+			</div>
+			<div class="button">
+				<a href="#">Take a look</a>
+			</div>
+		</div>
+		<div class="imgs">
+			<div class="square2"></div>
+			<div class="img">
+				<img src="images/08.png" alt="">
+				<div class="square3"></div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="careers">
+		<div class="comment">
+			<div class="button" style="justify-content: left;">
+				<a href="#"><ion-icon name="chevron-back-outline"></ion-icon></a>
+			</div>
+			<div class="data">
+				<h1>"</h1>
+				<h2><span>Our</span> Testimonial</h2>
+				<h6><span>Praesent volutpat ut nisl inlit hendrerit. Vestibulum antem ipsum</span><span>  sul primis in faucibus orci luctus et ultrices posible uere cubilia Curaemil mil Etiam porttitor, lacus in luctus</span><span>  mun Vestibulum antem ipsum isul primis in sco.</span></h6>
+				<h5><span>logan Cee</span> - CEO at <u>Typo INC</u></h5>
+			</div>
+			<div class="button" style="justify-content: right">
+				<a href="#"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+			</div>
+
+		</div>
+	</section>
+	
+	<section id="contact-us">
+		<div class="contact-form">
+			<form action="">
+				<input tsype="text" id="" placeholder="Name">
+				<input type="email" id="" placeholder="Email">
+				<input type="number" id="" placeholder="Phone">
+				<select id="option">
+					<option value="0">Project </option>
+					<option value="1">Project1 </option>
+					<option value="2">Project2 </option>
+					<option value="3">Project3</option>
+				</select>
+				<textarea name="" id="message" cols="40" rows="4" placeholder="Message"></textarea>
+				<button type="submit">SUBMIT Now</button>
+			</form>
+		</div>
+		<div class="contact-info">
+			<div class="info1">
+				<div class="logo">
+					<ion-icon name="location-outline"></ion-icon>
+				</div>
+				<div class="line"></div>
+				<div class="details">	Arkade House, Next to Children's Academy, A.S.Marg, Ashok Nagar, Kandivali (E), Mumbai 400 101, Maharashtra, India
+				</div>
+			</div>
+			<div class="info">
+				<div class="logo">
+					<ion-icon name="call-outline"></ion-icon>
+				</div>
+				<div class="line"></div>
+				<div class="details">
+					022 2886 3787 / 92228 92229
+				</div>
+			</div>
+			<div class="info">
+				<div class="logo">
+					<ion-icon name="phone-portrait-outline"></ion-icon>
+				</div>
+				<div class="line"></div>
+				<div class="details">
+					022 2887 4742
+				</div>
+			</div>
+			<div class="info">
+				<div class="logo">
+					<ion-icon name="mail-outline"></ion-icon>
+				</div>
+				<div class="line"></div>
+				<div class="details">
+					info@arkade.in
+				</div>
+			</div>
+			<div class="info">
+				<div class="logo">
+					<ion-icon name="globe-outline"></ion-icon>
+				</div>
+				<div class="line"></div>
+				<div class="details">
+					www.arkade.in
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="footer-conatiner">
+			<div class="logo">
+				<div class="company">
+					<img src="images/6.png" alt="">
+				</div>
+				<div class="social-media">
+					<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+					<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+					<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+					<a href="#"><ion-icon name="logo-google"></ion-icon></a>
+				</div>
+			</div>
+			<div class="nav-bar">
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Our Projects</a></li>
+						<li><a href="#">Investors</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+			</div>
+			<div class="helpline">
+				<ul>
+					<li><a href="#">Newsroom</a></li>
+					<li><a href="#">Customer Care</a></li>
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Disclaimer</a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				<div>
+					<div class="icon">
+						<ion-icon name="location-outline"></ion-icon>
+					</div>
+					<p>Arkade House, Next to Children's Academy, A.S.Marg, Ashok Nagar, Kandivali (E), Mumbai 400 101, Maharashtra, India</p>
+				</div>
+				<div>
+					<div class="icon">
+						<ion-icon name="phone-portrait-outline"></ion-icon>
+					</div>
+					<p>022 2886 3787 / 92228 92229</p>
+				</div>
+				<div>
+					<div class="icon">
+						<ion-icon name="call-outline"></ion-icon>
+					</div>
+					<p>022 1887 4742</p>
+				</div>
+				<div>
+					<div class="icon">
+						<ion-icon name="mail-outline"></ion-icon>
+					</div>
+					<p>info@arkade.in</p>
+				</div>
+				<div>
+					<div class="icon">
+						<ion-icon name="globe-outline"></ion-icon>
+					</div>
+					<p>www.arkade.in</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p><span>&copy </span>Arkade Group 2019, all right reserved.</p>
+		</div>
+	</footer>
+	
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
